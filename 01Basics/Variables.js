@@ -16,3 +16,12 @@ let fullName = firstName + ' ' + lastName
 
 console.log(firstName + '-' + lastName)
 console.log(fullName)
+
+//////////////////////////////
+
+const rollNumber = 101
+
+let studentFirstName = 'Ruhi'
+let studentLastName = 'Arora'
+
+console.log(studentFirstName + ' ' + studentLastName)

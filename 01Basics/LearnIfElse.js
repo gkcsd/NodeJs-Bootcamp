@@ -20,4 +20,5 @@ if (whoIsHere === 'user') {
     console.log("Allow access to his courses")
 } else {
     console.log("MESSAGE: Please verify your email")
+    console.log("Send user an email for verification")
 }

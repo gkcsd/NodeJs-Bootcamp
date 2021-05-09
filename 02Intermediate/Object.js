@@ -5,4 +5,5 @@ let myYoutubeVideos = {
     videoDescription: 'This video is about different loops in javascript'
 }
 
+console.log(myYoutubeVideos)
 console.log(`Todays teaching agenda is ${myYoutubeVideos.title} and its by ${myYoutubeVideos.authorName} `)

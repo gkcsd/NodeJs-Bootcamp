@@ -13,3 +13,14 @@ console.log(Math.ceil(floatRes))
 console.log()
 
 console.log(Math.random() * 10)
+
+
+console.log()
+////////////////////////////////////////
+
+let upper = 25
+let lower = 20
+
+let resultTwo = Math.floor(Math.random() * (upper - lower + 1)) + lower
+
+console.log(resultTwo)

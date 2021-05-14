@@ -6,5 +6,11 @@ const convertToRs = (dollar) => {
     }
 }
 
-const myValue = convertToRs('Five')
-console.log(myValue)
+try {
+    const myValue = convertToRs('Five')
+    console.log(myValue)
+} catch (err) {
+    console.log(err)
+}
+
+console.log('I will not run if my program freezes')

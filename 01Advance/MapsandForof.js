@@ -53,4 +53,15 @@ let arrofarr = [['one', '1'], ['two', '2'], ['three', '3']]
 
 let userArrayOfArray = new Map(arrofarr)
 
-console.log(userArrayOfArray)
+// console.log(userArrayOfArray)
+
+
+for(const [key, value] of userArrayOfArray.entries()) {
+    console.log(key + " = " + value)
+}
+
+console.log()
+
+userArrayOfArray.forEach((value, key) => {
+    console.log(key + " = " + value)
+})

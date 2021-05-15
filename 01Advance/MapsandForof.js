@@ -44,6 +44,13 @@ users.set('sam', sam)
 //     console.log(key + " = " + value.name)
 // })
 
-let result = users.forEach((value, key) => {
-    return `${key} = ${value.name}`
-})
+// let result = users.forEach((value, key) => {
+//     return `${key} = ${value.name}`
+// })
+
+
+let arrofarr = [['one', '1'], ['two', '2'], ['three', '3']]
+
+let userArrayOfArray = new Map(arrofarr)
+
+console.log(userArrayOfArray)

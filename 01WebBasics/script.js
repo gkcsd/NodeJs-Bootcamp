@@ -20,3 +20,12 @@ document.querySelector('body').appendChild(myNewPara)
 document.querySelector('button').addEventListener('click', (event) => {
     event.target.textContent = 'I was Clicked'
 })
+
+//input form validation
+document.querySelector('#myform').addEventListener('input', (event) => {
+    console.log(event.target.value);
+})
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        body {
+            background-color: rgb(57, 144, 179);
+        }
+        h2 {
+            font-size: 2rem;
+            background-color: #fff;
+            width: 500px;
+            border-radius: 5px;
+            padding: 10px;
+            padding-right: 8px;
+            text-align: center;
+            margin: 0 auto;
+            margin-right: 430px;
+            margin-top: 100px;
+        }
+        .myform {
+            width: 515px;
+            margin: 0 atuo;
+            margin-top: 10px;
+            border: solid 2px rgb(25, 218, 201);
+            margin-left: 400px;
+            border-radius: 10px;
+            background-color: skyblue;
+            
+        }
+        p {
+            margin-left: 160px;
+            color: rgb(180, 27, 211);
+            font-style: normal;
+        }
+        input {
+            display: block;
+            margin: 10px 0px 10px 150px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: whitesmoke;
+            color: black;
+            border: solid 2px rgb(166, 166, 207);
+            border-radius: 8px;
+            margin-left: 200px;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background-color: rgb(54, 54, 148);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form class="myform">
+        <input type="text" name="username" placeholder="Username">
+        <input type="email" name="email" placeholder="E-Mail">
+        <input type="password" id="pass1" name="password" placeholder="Password">
+        <input type="password" id="pass2" name="repeatpassword" placeholder="Repeat-Password">
+        <p id = "paraone"></p>
+        <p id = "paratwo"></p>
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="FormValidation.js"></script>
+</body>
+</html>

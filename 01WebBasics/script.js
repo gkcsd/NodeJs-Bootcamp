@@ -11,3 +11,8 @@ const myPElement = document.querySelectorAll('p')
 myPElement.forEach((p) => {
     p.textContent = 'I am changed using loop in JS'
 })
+
+const myNewPara = document.createElement('p')
+myNewPara.textContent = 'I was added via JS'
+
+document.querySelector('body').appendChild(myNewPara)

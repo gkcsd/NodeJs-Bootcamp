@@ -1,0 +1,1 @@
+alert("New page is working")

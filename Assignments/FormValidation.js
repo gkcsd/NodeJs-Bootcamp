@@ -20,5 +20,7 @@ document.querySelector('.myform').addEventListener('submit', (event) => {
     } else {
         para.textContent = "Password Not Matched"
         document.querySelector('form').appendChild(para)
+        p2.textContent = ''
+        p.textContent = ''
     }
 })

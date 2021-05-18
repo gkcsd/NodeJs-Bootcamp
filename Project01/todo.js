@@ -36,9 +36,6 @@ function addItem() {
        
 
     }else {
-
-        var rm = document.getElementById('para')
-        rm.remove()
         //create list
         li = document.createElement('li')
         //create checkbox
@@ -62,6 +59,8 @@ function addItem() {
         }, 2)
 
         input.value = ''
+        var rm = document.getElementById('para')
+        rm.remove()
 
     }
 }

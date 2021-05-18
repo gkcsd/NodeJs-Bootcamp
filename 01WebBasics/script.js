@@ -27,5 +27,3 @@ document.querySelector('#myform').addEventListener('input', (event) => {
 })
 
 
-
-

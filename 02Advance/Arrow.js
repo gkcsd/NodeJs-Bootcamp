@@ -23,3 +23,11 @@ const todos = [{
 
 const thingsDone = todos.filter((todo) => todo.isDone === true)
 console.log(thingsDone)
+
+console.log()
+
+const thingsDoneTwo = todos.filter((todo) => {
+    if(todo.isDone === true) {
+        console.log(todo.title)
+    }
+})

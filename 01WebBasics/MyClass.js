@@ -25,8 +25,24 @@ class User {
     }
 }
 
-const john = new User('John', 'Raj', 'Anderson', 34)
-console.log(john)
+class Teacher extends User {
+    constructor(firstName, middleName, lastName, credit, subjectName) {
+        super(firstName, middleName, lastName, credit)
+        this.subjectName = subjectName
+    }
+
+    getFullName() {
+        let fullName = `${this.firstName} ${this.middleName} ${this.lastName} is my full name and I teach ${this.subjectName}`
+        return fullName
+    }
+
+    favDrink() {
+        return `My favourite drink is Coffee`
+    }
+}
+
+const john = new Teacher('John', 'Raj', 'Anderson', 34, "Javascript")
+// console.log(john)
 
 console.log(john.getFullName())
 
@@ -42,3 +58,7 @@ console.log(john.getFullName())
 
 // const sammy = new User('Samy', 'Jackson', 45)
 // console.log(sammy)
+
+console.log()
+
+console.log(john.favDrink())
